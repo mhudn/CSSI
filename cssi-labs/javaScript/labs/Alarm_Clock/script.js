@@ -13,3 +13,57 @@
 // limitations under the License.
 
 console.log("script is running...");
+function Basic_Alarm(alarmMessage)
+{
+  return alarmMessage;
+};
+console.log(Basic_Alarm("My Alarm!"));
+
+
+//My Alarm
+function My_Alarm(time)
+{
+ return  "Hey, Mohiuddin, wake up! It’s "
+};
+console.log(My_Alarm()+"6:30");
+
+
+//Mom's Alarm
+function My_Alarm(time)
+{
+ return  "Hey, Mom, wake up! It’s "
+};
+console.log(My_Alarm()+"5:10AM");
+
+
+//Family Alarm
+
+function Family_Alarm(name, time)
+{
+     return  "Hey " + name + ", wake up! It’s " + time;
+};
+name1 = prompt("Set Alarm for? (first person)");
+time1 = prompt("What the time do you want to wake up?");
+console.log(Family_Alarm(name1, time1));
+
+name2 = prompt("Set Alarm for? (second person)");
+time2 = prompt("What the time do you want to wake up?");
+console.log(Family_Alarm(name2, time2));
+// console.log(Family_Alarm("Morzina", "9:20am"));
+// console.log(Family_Alarm("Farhad", "7:30am"));
+
+//Important Alarm
+
+function Important_Alarm(txt)
+{
+  txt = "wake up!, wake up!!, wake up!!!"
+  return txt.toUpperCase();
+};
+console.log(Important_Alarm());
+
+//Snooze Alarm
+
+function Snooze_Alarm()
+{
+
+};

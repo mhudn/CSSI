@@ -1,0 +1,23 @@
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.big {
+  font-size: 30px;
+}
+.small {
+  font-size: 10px;
+}
+.green {
+  color: green;
+}
+.huge {
+  font-size: 100px;
+}
+/*
+> p.classList.add('red');
+> p.classList.remove('red');
+> p.classList.add('big');
+> p.classList.remove('big'); */
